@@ -1,4 +1,3 @@
-# boxed-rails
+# boxed-rails-cookbook
 
-TODO: Enter the cookbook description here.
-
+Poise rails application cookbook to deploy boxed application and supporting tools
