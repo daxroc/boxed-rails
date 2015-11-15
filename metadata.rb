@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license          'all_rights'
 description      'Installs/Configures boxed-rails'
 long_description 'Installs/Configures boxed-rails'
-version          '0.2.0'
+version          '0.3.0'
 
 depends 'yum-epel'
 depends 'build-essential'

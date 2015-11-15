@@ -1,12 +1,17 @@
 ---
 driver:
-  name: vagrant
+  name: digitalocean
 
 provisioner:
   name: chef_zero
 
 platforms:
-  - name: centos-7.1 
+  - name: centos-6-5-x64
+    driver_config:
+      size: 2GB
+      ssh_key_ids: <%= ENV['DIGITALOCEAN_SSH_KEY_IDS'] %>
+      ssh_key: <%= ENV['DIGITALOCEAN_SSH_KEY_PATH'] %>
+
 
 suites:
   - name: default
